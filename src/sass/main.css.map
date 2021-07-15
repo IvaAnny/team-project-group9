@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG",
+    "sources": [
+        "main.scss",
+        "loyaut/_about.scss",
+        "loyaut/_advantages.scss",
+        "loyaut/_contacts.scss",
+        "loyaut/_customer-reviews.scss",
+        "loyaut/_footer.scss",
+        "loyaut/_gallery.scss",
+        "loyaut/_header.scss",
+        "loyaut/_hero.scss",
+        "loyaut/_products.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
