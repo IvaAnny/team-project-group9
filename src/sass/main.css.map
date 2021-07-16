@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": ";AAAA;;;GAGG",
+    "mappings": ";AAAA;;;GAGG;AOHH,AAAA,eAAe,CAAA;EACX,KAAK,EAAC,IAAI;CACb",
     "sources": [
         "main.scss",
         "loyaut/_about.scss",
