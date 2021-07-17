@@ -3,13 +3,46 @@
   <head>
    <title>IceCream</title>
    <link rel="stylesheet" href="./css/modern-normalize.css">
-   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,700&family=Titan+One&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./sass/main.css">
   </head>
   <body>
-   
-    <header class="header-section"> </header>
+    <header class="header-section">
+      <div class="container header-section__mobile">
+        <a href="" class="logo">
+          <svg width="199" height="50">
+            <use href="./images/icon/sprite.svg#icon-logogo"></use>
+        </svg>
+        </a>
+        <button type="button" class="header-section__burger-menu">
+            <svg width="20" height="14">
+                <use href="./images/sprite.svg#icon-burger"></use>
+            </svg>
+        </button>
+      </div>
+        <!-- Мобильное меню -->
+        <div class="mobile-menu is-hidden">
+          <div class="mobile-menu__container">
+              <button type="button" class="mobile-menu__close-button">
+                  <svg width="14" height="14">
+                      <use href="./images/icon/symbol-defs.svg#icon-icon-facebook-footer"></use>
+                  </svg>
+              </button>
+              <button type="submit" class="mobile-menu__submit-button">Buy now</button>
+              <nav class="navigation">
+                  <ul class="navigation__list" >
+                      <li class="navigation__item"><a href="" class="navigation__link highlighted">Home</a></li>
+                      <li class="navigation__item"><a href="" class="navigation__link">About us</a></li>
+                      <li class="navigation__item"><a href="" class="navigation__link">How it’s made?</a></li>
+                      <li class="navigation__item"><a href="" class="navigation__link">Our products</a></li>
+                      <li class="navigation__item"><a href="" class="navigation__link">Contact</a></li>
+                  </ul>
+              </nav>
+            </div>
+          </div>
+<!-- <include src="./header-section.html"></include> -->
+    </header>
 <main>
   <section class="hero-section"></section>
 
