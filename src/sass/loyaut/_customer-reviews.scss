@@ -18,7 +18,7 @@
     width: 100%;
     margin-bottom: 30px;
    padding: 43px 66px 26px 57px;
-    background-color: var(--customer-back-color);
+    background-color: $customer-reviews-background;
 
 }
 
@@ -31,11 +31,11 @@ font-weight: 500;
 font-size: 12px;
 line-height: 2.58;
 text-align: center;
-color: var(--description-color);
+color:  $description-color;
  background-image: repeating-linear-gradient(
     to top,
-    var(--repeating-linear-gradients-color),
-    var(--repeating-linear-gradients-color) 1px,
+    $repeating-linear-gradient,
+    $repeating-linear-gradient 1px,
     transparent 1px,
     transparent 31px
   );
@@ -44,8 +44,8 @@ color: var(--description-color);
 .customer-reviews__icon {
 position: absolute;
 top: 26px;
-left: 28px;
-fill: var(--quotes-color);
+left: 59px;
+fill: $repeating-linear-gradient;
 opacity: 0.7;
 }
 
@@ -74,7 +74,7 @@ width: 4px;
 height: 4px;
 display: inline-block;
  
-background: var(--ellipse-color);
+background: $customer-reviews-ellipse;
 border-radius: 50%;
 }
 
