@@ -105,11 +105,17 @@ border-radius: 24px;
 }
 
 
-.link-button{
+.button{
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 404px;
+    top: center;
+}
+    .link-button{
+padding-left: 15px;
+    fill: red;
+    background-color: #FFFFFF;
+    border-radius: 50%; 
 }
 
 .products__list{
@@ -123,12 +129,7 @@ border-radius: 24px;
     padding-bottom: 98px;
 }
 
-.link-button{
-    margin-left: 120px;
-    fill: red;
-    background-color: #FFFFFF;
-    border-radius: 50%; 
-}
+
 
 .icon-button{
     width: 5px;
