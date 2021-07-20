@@ -8,13 +8,6 @@
         justify-content: space-between;}
     // align-items: center;}
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 320px;
-}
 .header-section__burger-menu {
 background-color: transparent;
 border: none;
@@ -58,7 +51,18 @@ border: none;
     border:none;
     background-color: $text-color;
     color: $title-color;
+    position: relative;
+    cursor: pointer;
+    padding-left: 48px;
+    padding-right: 48px;
+    justify-content: space-between;
 }
+.mobile-menu__submit-icon {
+    position: absolute;
+    top: 42%;
+    margin-left: 15px;
+}
+
 .mobile-menu__close-button {
     position: absolute;
     top:23px;
@@ -93,6 +97,9 @@ border: none;
         color: $title-color;
     }
 }
+.highlighted{
+    color: $title-color;
+}
 // ПРАВИЛО ДЛЯ БЕКДРОПА
 .backdrop {
     position: fixed;
@@ -103,7 +110,7 @@ border: none;
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
-    background-color: #907E82;
+    background-color: rgba(240, 209, 165, 0.65);
     opacity: 1;
     z-index: 999;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -236,9 +243,7 @@ border: none;
     }
     
   // ПРАВИЛА ДЛЯ ЧЕКБОКСА
-  // .modal__checkbox {
-  //     margin-top: 20px;
-  //   }
+ 
   .modal__checkbox-icon {
       margin-right: 7px;
       width: 16px;
