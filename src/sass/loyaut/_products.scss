@@ -51,7 +51,7 @@ color: $text-color;
     position: absolute;
     width: 200px;
 height: 124px;
-left: 45px;
+left: 40px;
 top: 250px;
 
 
@@ -62,6 +62,7 @@ font-size: 14px;
 line-height: 1.52;
 text-align: center;
 letter-spacing: 0.04em;
+color: $text-color;
 }
 
 .products__list-item-container{
@@ -102,19 +103,7 @@ border-radius: 24px;
     top: -23%;
     left: 15px;
 }
-.products_list-container-suptitile{
 
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 152%;
-/* or 21px */
-
-text-align: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-}
 
 .link-button{
     position: absolute;
@@ -168,11 +157,31 @@ color: #FFFFFF;
     }
     .products__list-item:not(:last-child){
         margin-right: 20px;
-    }
-    
+    }     
 .list-container{
     width: 220px;
     height: 485px;
+}
+.title3{
+left: 23px;
+}
+.points{
+    right: 97px;
+}
+
+.products_list-container-suptitile{
+    left: 10px;
+
+    font-size: 14px;
+line-height: 176%;
+/* or 25px */
+
+text-align: center;
+letter-spacing: 0.04em;
+}
+
+.link-button{
+    margin-left: 90px;
 }
 }
 
