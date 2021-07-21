@@ -165,7 +165,7 @@ border: none;
     .is-hidden .modal {
         transform: translate(-50%, -50%) scale(0.3);
       }
-      [data-modal-close] {
+    [data-modal-close] {
         position: absolute;
         top: 8px;
         right: 8px;
