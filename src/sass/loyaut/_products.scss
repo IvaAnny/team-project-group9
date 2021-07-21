@@ -65,51 +65,36 @@ letter-spacing: 0.04em;
 color: $text-color;
 }
 
-.products__list-item-container{
+.list-container{
     position: relative;
     width: 280px;
 height: 485px;
 justify-content: center;
+}
 
-
+.products__list-item-container{
 background: #FFB8CA;
 border-radius: 24px;
 }
 
 .products__list-item-container1{
-position: relative;
-width: 280px;
-height: 485px;
-justify-content: center;
-
-
-
 background: #F0D1A5;
 border-radius: 24px;
 }
-.products__list-item-container2{
-    position: relative;
-    width: 280px;
-    height: 485px;
-    justify-content: center;
-    
-    
+.products__list-item-container2{ 
     background: #C2E297;
     border-radius: 24px;
     }
 
 .img{
     position: absolute;
-    top: -23%;
-    left: 15px;
+    top: -113px;
 }
 
 
 .button{
-    position: absolute;
     width: 40px;
     height: 40px;
-    top: center;
 }
     .link-button{
 padding-left: 15px;
@@ -146,15 +131,12 @@ padding-left: 15px;
     padding-right: 4px;   
 }
 
-.icon-points{
-    width: 6px;
-    height: 6px;
-}
-
 
 @media screen and(min-width:768px) {
     .products__list{
         display: flex;
+        justify-content: center;
+        padding-top: 150px;
     }
     .products__list-item:not(:last-child){
         margin-right: 20px;
@@ -163,18 +145,36 @@ padding-left: 15px;
     width: 220px;
     height: 485px;
 }
+.img{
+    left: 0px;
+}
+
+.title1{
+    font-size: 26px;
+line-height: 30px;
+}
+
+.title2{
+    font-size: 48px;
+line-height: 55px;
+}
 .title3{
-left: 23px;
+    width: 199px;
+height: 23px;
+left: 10px;
 }
 .points{
+    top: 200px;
     right: 97px;
 }
 
 .products_list-container-suptitile{
+    width: 198px;
     left: 10px;
+    top: 240px;
 
     font-size: 14px;
-line-height: 176%;
+line-height: 1.76;
 /* or 25px */
 
 text-align: center;
@@ -187,8 +187,19 @@ letter-spacing: 0.04em;
 }
 
 @media screen and(min-width:1200px){
+    .title1{
+        font-size: 30px;
+line-height: 34px;
+letter-spacing: 0.04em;
+    }
+    
+    .title2{
+        font-size: 58px;
+line-height: 66px;
+letter-spacing: 0.06em;
+    }
     .products__list-item:not(:last-child){
-        margin-right: 23px;
+        margin-right: 27px;
     }
     .list-container{
         width: 329px;
@@ -196,6 +207,36 @@ letter-spacing: 0.04em;
         justify-content: center;
     }
 
+    .products__list{
+        padding-top: 259px;
+    }
+
+    .img{
+        top: -210px;
+    }
+.title3{
+    width: 209px;
+    font-size: 30px;
+line-height: 34px;
+left: 60px;
+}
+.points{
+    top: 229px;
+    right: 152px;
+}
+
+.products_list-container-suptitile{
+    width: 241px;
+    height: 106px;
+    left: 45px;
+    top: 267px;
+
+}
+
+.link-button{
+    margin-left: 144px;
+    margin-top: 30px;
+}
 }
 
 
