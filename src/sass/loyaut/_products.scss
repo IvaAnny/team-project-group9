@@ -39,6 +39,11 @@
   line-height: 23px;
   /* identical to box height */
 
+
+  
+
+
+
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -149,6 +154,7 @@
   .products__list-item:not(:last-child) {
     margin-right: 20px;
   }
+
   .list-container {
     width: 220px;
     height: 485px;
@@ -180,9 +186,17 @@
   .products__list-item:not(:last-child) {
     margin-right: 23px;
   }
+
+  .list-container {
+    width: 329px;
+    height: 525px;
+    justify-content: center;
+  }
+
 }
 .list-container {
   width: 329px;
   height: 525px;
   justify-content: center;
+
 }
